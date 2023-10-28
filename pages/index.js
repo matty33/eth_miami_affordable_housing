@@ -9,6 +9,7 @@ function Home() {
 <Navigationbar/>
 
 <section className="propy"></section>
+<section className='propy2'></section>
 
 {/* </div> */}
     </div>
