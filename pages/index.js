@@ -1,18 +1,18 @@
 
 import React from 'react'
 import Navigationbar from './Navbar/Navigationbar'
+import Unlock from './Unlock/Unlock'
+import Router from 'next/router'
 
 function Home() {
   return (
     <div>
-    {/* <div className="bg-white dark:bg-gray-900"> */}
-<Navigationbar/>
-
-<section className="propy"></section>
-<section className='propy2'></section>
-
-{/* </div> */}
+      <Unlock />
+      <section className="propy"></section>
+      <section className='propy2'></section>
     </div>
+
+    
   )
 }
 
